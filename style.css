@@ -1,39 +1,79 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-.container{
+.container {
+    display: flex;
     position: absolute;
     top: 0;
-    bottom: 0; 
+    bottom: 0;
     left: 0;
     right: 0;
     background: yellow;
     margin: auto;
-    height: 500px;
-    width: 500px;
+    height: auto;
+    width: auto;
 }
 
-.Object1{
-    z-index: 1;
+.Object1 {
     position: absolute;
     height: 100px;
     width: 50px;
     background: blue;
     border-radius: 10% 50% 20% 90%;
+    border-style: solid;
+    border-color: red;
 }
 
-.Object2{
-    z-index: 1;
-    position:absolute;
+.Object2 {
+    position: absolute;
     height: 300px;
     width: 150px;
     background: purple;
     border-radius: 75% 70% 50% 100%;
-    top: 100px;
-    left: 50px;
+    top: 400px;
+    left: 600px;
 }
 
-.Object3{
+.Object3 {
+    position: absolute;
+    height: 250px;
+    width: 450px;
+    background: dimgray;
+    top: 300px;
+    left: 200px;
+}
+
+.Object4 {
+    position: absolute;
+    width: 50px;
+    height: 30px;
+    background-color: darkmagenta;
+    border-style: solid;
+    border-width: 0 100px 300px 500px;
+    border-color: transparent transparent green transparent;
+    top: 0;
+    left: 600px;
+}
+
+.Object5 {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 200px 100px 0 200px;
+    border-color: #007bff transparent transparent transparent;
+}
+
+button{
+    z-index: 1;
+    position: absolute;
+    top:700px;
+    height: auto;
+    width: auto;
+    size: 50px; 
+}
+
+.form1{
     position: absolute;
 }
