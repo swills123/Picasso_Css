@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    position: absolute;
+    top: 0;
+    bottom: 0; 
+    left: 0;
+    right: 0;
+    background: yellow;
+    margin: auto;
+    height: 500px;
+    width: 500px;
+}
+
+.Object1{
+    z-index: 1;
+    position: absolute;
+    height: 100px;
+    width: 50px;
+    background: blue;
+    border-radius: 10% 50% 20% 90%;
+}
+
+.Object2{
+    z-index: 1;
+    position:absolute;
+    height: 300px;
+    width: 150px;
+    background: purple;
+    border-radius: 75% 70% 50% 100%;
+    top: 100px;
+    left: 50px;
+}
+
+.Object3{
+    position: absolute;
+}
